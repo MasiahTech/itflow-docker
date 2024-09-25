@@ -61,8 +61,8 @@ services:
     security_opt:
       - no-new-privileges:true
     ports:
-      - 80:80
-      - 443:443
+      - 81:81
+      - 446:446
     volumes:
       - traefik-acme:/acme
       - ${DOCKERDIR}/traefik:/dynamic-conf
