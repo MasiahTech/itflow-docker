@@ -34,7 +34,7 @@ services:
     environment:
       - TZ=$TZ
       - ITFLOW_NAME=TruFlow
-      - ITFLOW_URL=it.$ROOT_DOMAIN
+      - ITFLOW_URL=it.onlycraft.cloud
       - ITFLOW_PORT=8080
       - ITFLOW_REPO=github.com/itflow-org/itflow
       - ITFLOW_REPO_BRANCH=master
